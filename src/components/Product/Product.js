@@ -17,17 +17,17 @@ const Product = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 cursor-pointer xl:grid-cols-2 gap-5 m-4 sm:m-4 ">
+      <div className="grid grid-cols-1  md:grid-cols-2  cursor-pointer xl:grid-cols-2 gap-5 m-4 sm:m-4 ">
         {[img1, img2, img3, img4, img5, img6].map((img, index) => (
           <div
             key={index}
             className="border mt-8 sm:flex md: items-center sm:w-full rounded-lg"
           >
-            <div className="w-full sm:w-auto ">
+            <div className="w-auto ">
               <img
                 src={img}
                 alt={`Product ${index + 1}`}
-                className="mx-auto sm:mx-0 p-4 w-full"
+                className="  w-full "
               />
             </div>
             <div className="pl-4 ">

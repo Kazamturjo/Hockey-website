@@ -51,7 +51,7 @@ const About = () => {
               {percentages.map((percentage, index) => (
                 <div
                   key={index}
-                  className='flex flex-col items-center sm:p-20 p-20 bg-white  rounded-lg'
+                  className='flex flex-col items-center lg:p-20 md:p-20 p-20 bg-white flex-auto rounded-lg'
                 >
                   <CircularProgressbar
                     value={percentage}

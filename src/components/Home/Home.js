@@ -9,7 +9,7 @@ import Contact from '../Contact/Contact'
 
 const Home = () => {
   return (
-    <div>
+    <div className="container mx-auto">
         <Navbar/>
         <Hero/>
         <About/>
@@ -17,6 +17,7 @@ const Home = () => {
         <Product/>
         <Blog/>
         <Contact/>
+        
     </div>
   )
 }
